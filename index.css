@@ -127,51 +127,86 @@ font-size: 14px;
     padding: 0.3rem;
 }
 .cart-item{
-    padding: 1rem;
-    display: flex;
+    padding: 0.5rem;
+    display: grid;
+    grid-template-columns: 1.5fr 4fr 1.5fr ;
+    column-gap: 0;
+   
 }
 .cart-img{
     height: 12vh;
     width: 24vw;
     padding: 1rem;
 }
-.cart-tool{
+.cart-item-name{
+    font-size: 13px;
+    color: #202020;
+    font-weight: 200;
+    padding: 1.3rem 0.1rem 1rem 0.1rem;
+  
+    
+}
+.product-details{
+    
+   
+}
+.price-related {
     display: flex;
-    height: 10vh;
-}
-.fa-thin{
-    padding: 2rem 1rem 0rem 4rem;
-}
-.cart-tool-heading{
-    /* padding: 2rem 2rem 0rem 0rem */
-    text-align: center;
-    padding-top: 2rem;
-    /* height: 2vh; */
+    padding: 0.3rem;
 }
 
-.product-options{
-    display: flex;
-    justify-content: end;
-   align-items: start;
+
+.cart-option{
+    padding: 0rem 0.6rem;
+    border: none;
+    outline: none;
+    background: transparent;
 }
-.size {
-    padding: 2rem;
-    /* margin-bottom: 4rem; */
+.qty-text{
+   padding: 0.4rem ;
+   padding-left: 3rem;
+   font-size: 13px;
+   font-family: Arial, sans-serif;
+   color: gray;
+   font-weight: 100;
+}
+.size-txt{
+    text-align: center;
+    padding-left: 1rem;
+    
+}
+.size-symbol{
+    padding-left: 0.8rem;
+}
+.cross-bar{
+    font-size: 18px;
+     color:#757575;
+     padding-left: 2rem;
+     padding-top: 0.4rem;
+
 }
 .price{
-    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
-.qty{
-    padding: 2rem;
+.price-txt{
+   padding-top: 1.9rem;
+   padding-left: 1.2rem;
+  
 }
-.checkout-box {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 100%; 
-    background: #202020; 
-    padding: 1.5rem; 
-    border-top: 2px solid #ccc;
-    text-align: center; 
-    color: white;
+.total{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.total-price{
+    font-size: 13px;
+   padding-right: 2.3rem;
+   
+}
+.total-txt{
+    padding: 1.4rem 1.8rem;
+    font-size: 13px;
+    font-weight: 600;
 }
