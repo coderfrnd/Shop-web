@@ -1,41 +1,75 @@
-/*** The new CSS Reset - version 1.2.0 (last updated 23.7.2021) ***/
-
-/* Remove all the styles of the "User-Agent-, except for the 'display' property */
-*:where(:not(iframe, canvas, img, svg, video):not(svg *)) {
-    all: unset;
-    display: revert;
-  }
-  
-  /* Preferred box-sizing value */
-  *,
-  *::before,
-  *::after {
+/* 1. Remove all default margin and padding */
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
-  }
-  
-  /*
-    Remove list styles (bullets/numbers)
-    in case you use it with normalize.css
-  */
-  ol, ul {
+}
+
+/* 2. Set default font and line height */
+body {
+    font-family: sans-serif, Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    color: #333; /* Default text color */
+    background-color: #fff; /* Default background color */
+}
+
+/* 3. Remove list styles */
+ol, ul {
     list-style: none;
-  }
-  
-  /* For images to not be able to exceed their container */
-  img {
-    max-width: 100%;
-  }
-  
-  /* Removes spacing between cells in tables */
-  table {
+}
+
+/* 4. Remove links underlines, preserve link color */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* 5. Remove the default table styles */
+table {
     border-collapse: collapse;
-  }
-  
-  /* Revert the 'white-space' property for textarea elements on Safari */
-  textarea {
-    white-space: revert;
-  }
-  select,
-option {
-    all: revert;
+    width: 100%;
+}
+
+/* 6. Fix table cell spacing */
+td, th {
+    padding: 0;
+}
+
+/* 7. Make sure images don't overflow their container */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* 8. Remove form input styles */
+input,
+button,
+select,
+textarea {
+    font-family: inherit;
+    font-size: inherit;
+    border: none;
+    outline: none;
+}
+
+/* 9. Make form controls visible */
+/*  */
+
+
+/* 10. Reset textarea styles */
+textarea {
+    resize: vertical; /* Allows vertical resizing only */
+    min-height: 100px;
+}
+
+/* 11. Remove outline on focused elements */
+:focus {
+    outline: none;
+}
+
+/* 12. Add subtle box-shadow to focused input elements */
+input:focus, textarea:focus, select:focus, button:focus {
+    box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.25);
 }

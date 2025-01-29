@@ -1,12 +1,14 @@
 *{
-    padding: 0;
-    margin: 0;
+   
     
 }.box{
     height: 100vh;
     width: 100vw;
     /* z-index: 0; */
+    box-sizing: border-box;
     font-family: 'Roboto', 'Noto Sans', sans-serif;
+    padding: 0;
+    margin: 0;
 }
 .header{
     display: flex;
@@ -183,14 +185,14 @@ font-size: 14px;
     padding-bottom: 1rem;
 }
 .discription-text{
-    font-size: 14px;
+    font-size: 13px;
     color: #202020;
     font-weight: 100;
 }
 
 .price-about{
     display: flex;
-    justify-content: space-around   ;
+    /* justify-content: space-around   ; */
    align-items: end;
     font-size: 13px;
     color: #757575;
@@ -205,8 +207,15 @@ font-size: 14px;
    
     
 }
+.cart-option-price{
+    padding-left: 2rem;
+}
 .size{
-    padding-right: 0.2rem ;
+    padding-left: 1rem ;
+    padding-right: 0.6rem;
+}
+.size-symbol{
+    padding-left: 0.8rem;
 }
 .cart-img{
     padding: 0.2rem;
@@ -223,12 +232,95 @@ font-size: 14px;
 }
 .cart-final-total{
     color: #202020;
-    padding: 1rem;
+    padding: 0.8rem;
     font-weight: 700;
+    font-size: 13px;
 }
 .total-price{
-    padding: 1rem 1.2rem;
+    padding: 0.8rem 1.4rem;
     font-size: 13px;
     color: #202020;
     font-weight: 700;
+}
+.cart-footer{
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
+    padding: 1.3rem;
+    background-color: #172C50;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+.checkout-heading{
+    /* align-items: center; */
+    text-align: center;
+    /* padding: 0.2rem; */
+    font-size: 14.3px;
+    font-weight: 300;
+    color: var(--app-primary-color);
+}
+.checkout-text{
+    color: #757575;
+    font-weight: 100;
+    font-size: 12px;
+    padding: 0.6rem;
+}
+.checkout-form{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+   
+}
+#Email{
+    padding: 0.8rem;
+}
+.ip{
+    padding: 1rem;
+    text-align: start;
+}
+.ip-heading{
+    padding: 0.7rem 1.5rem;
+    font-size: 14px;
+    font-weight: 600;
+    color: #202020;
+}
+hr{
+    border: 0.1rem solid #a7a3a3;
+  
+}
+.two-ip{
+    display: flex;
+    text-align: start;
+    width: 100%;
+    padding: 2%;
+    padding-bottom:0% ;
+   
+}
+.ip-dropdown{
+    display: flex;
+    flex-direction: column;
+   padding: 0% 4%;
+   /* align-items: start; */
+}
+.country-label{
+   padding: 3%;
+}
+
+.billing-heading{
+    padding-top: 7%;
+    padding-left: 7%;
+    padding-bottom: 4%;
+}
+
+.half-ip-box{
+    padding: 2%;
+    width: 50%;
+}
+.last-checkbox{
+    padding:0% 6%
+}
+.checkout-checkbox{
+    
 }
