@@ -136,7 +136,7 @@ font-size: 14px;
 .cart-img{
     height: 12vh;
     width: 24vw;
-    padding: 1rem;
+    padding: 0.7rem;
 }
 .cart-item-name{
     font-size: 13px;
@@ -181,8 +181,8 @@ font-size: 14px;
 .cross-bar{
     font-size: 18px;
      color:#757575;
-     padding-left: 2rem;
-     padding-top: 0.4rem;
+     padding-left: 2.6rem;
+     padding-top: 0.8rem;
 
 }
 .price{
@@ -191,7 +191,7 @@ font-size: 14px;
     justify-content: center;
 }
 .price-txt{
-   padding-top: 1.9rem;
+   padding-top: 1.6rem;
    padding-left: 1.2rem;
   
 }
@@ -202,7 +202,8 @@ font-size: 14px;
 }
 .total-price{
     font-size: 13px;
-   padding-right: 2.3rem;
+   padding-right: 2rem;
+   /* padding-left: 0.8rem; */
    
 }
 .total-txt{
