@@ -9,14 +9,13 @@
 
 /* 2. Set default font and line height */
 body {
-    font-family: sans-serif, Arial, Helvetica, sans-serif;
-    line-height: 1.5;
-    color: #333; /* Default text color */
-    background-color: #fff; /* Default background color */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 /* 3. Remove list styles */
-ol, ul {
+ol, {
     list-style: none;
 }
 
@@ -54,22 +53,18 @@ textarea {
     outline: none;
 }
 
-/* 9. Make form controls visible */
-/*  */
 
-
-/* 10. Reset textarea styles */
 textarea {
-    resize: vertical; /* Allows vertical resizing only */
+    resize: vertical; 
     min-height: 100px;
 }
 
-/* 11. Remove outline on focused elements */
+
 :focus {
     outline: none;
 }
 
-/* 12. Add subtle box-shadow to focused input elements */
+
 input:focus, textarea:focus, select:focus, button:focus {
     box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.25);
 }
