@@ -15,21 +15,154 @@
 <body>
     <main class="checkout box">
         <div class="header">
-            <i class="fa fa-bars large-icon fa-light  hamburger"></i>
+            <i class="fa fa-bars large-icon fa-light  hamburger deff-cross"></i>
               <p class="shop-heading">SHOP</p>
               <a href="./cart.html"> <img src="./Images/grocery-store.png" alt="" class="grocery-icon"></a>
             </div>
-            <h1 class="checkout-heading">Checkout</h1>
+            <h1 class="checkout-heading c-h-t">Checkout</h1>
             <p class="checkout-heading checkout-text">Shop is a demo app - form data will be not sent</p>
 
-            <form action="" class="checkout-form">
+            <div action="" class="checkout-form">
+              <div class="first-block">
                 <label for="" class="ip-heading">Account Information</label>
-                <!-- <label for="username">Username:</label> -->
-          
+                <div class="information">
+                 <div class="input-name">
+                   <input type="text"  required>
+                   <label class="name-txt">Email</label>
+                 </div>
+                 <div class="input-name">
+                   <input type="text"  required>
+                   <label class="name-txt">Phone Number</label>
+                 </div>
+                </div>
+                <label for="" class="ip-heading">Shipping Address</label>
+                <div class="information">
+                 <div class="input-name">
+                   <input type="text"  required>
+                   <label class="name-txt">Address</label>
+                 </div>
+                 <div class="input-name">
+                   <input type="text"  required>
+                   <label class="name-txt">City</label>
+                 </div>
+                <div class="state-prov">
+                 <div class="input-name state-ip">
+                   <input type="text"  required>
+                   <label class="name-txt state-text-add">State/Province</label>
+                 </div>
+                 <div class="input-name state-ip state-ip-1 ">
+                   <input type="text"  required>
+                   <label class="name-txt state-text-add-2">ZIP/POSTAL CODE</label>
+                 </div>
+                </div>
+              </div>
+             
+                <div class="billing">
+                  <div class="input-name">
+                    <label for="" class="Country-head">Country</label>
+                    <select name="" id="" class="country-option">
+                      <option value="">United states</option>
+                      <option value="">Canada</option>
+                    </select>
+                    
+                  </div>
+                  <label for="" class="ip-heading">Billing Address</label>
+                  <div class="input-name checkbox-section">
+                    <input type="checkbox" class="ip-checkbox">
+                    <label for="" class="checkbox-section-txt">Use a different billing Address</label>
+                  </div>
+  
+                 </div>
+                 </div>
+
+
+                 
+                 <div class="second-colm">
+                  <label for="" class="ip-heading">Payment Method</label>
+                  <div class="information">
+                   <div class="input-name">
+                     <input type="text"  required>
+                     <label class="name-txt">Cardholder Name</label>
+                   </div>
+                   <div class="input-name">
+                     <input type="text"  required>
+                     <label class="name-txt">Card Number</label>
+                   </div>
+                   
+                  </div>
+                  <div class="cards-info">
+                   <div class="card-part-div">
+                     <label for="" class="Country-head card-expiry">Expiry</label>
+                     <select name="" id="" class="country-option card-option">
+                       <option value="">Jan</option>
+                       <option value="">Feb</option>
+                       <option value="">Mar</option>
+                       <option value="">Apr</option>
+                       <option value="">May</option>
+                       <option value="">Jun</option>
+                       <option value="">Jul</option>
+                       <option value="">Aug</option>
+                       <option value="">Nov</option>
+                       <option value="">Dec</option>
+                     </select>
+                     
+                   </div>
+                   <div class="card-part-div year-cc">
+                     <label for="" class="Country-head opzero"> Expiry  </label>
+                     <select name="" id="" class="country-option card-option">
+                       <option value="">Jan</option>
+                       <option value="">Feb</option>
+                       <option value="">Mar</option>
+                       <option value="">Apr</option>
+                       <option value="">May</option>
+                       <option value="">Jun</option>
+                       <option value="">Jul</option>
+                       <option value="">Aug</option>
+                       <option value="">Nov</option>
+                       <option value="">Dec</option>
+                     </select>
+                     
+                   </div>
+                   <div class="input-name cvv-ip">
+                     <input type="text" class="cvv-ip-box" required>
+                    <label class="name-txt card-expiry">CVV</label>
+                   </div>
+                  </div>
+       
+   
+               
+                 
+               <div class="summary">
+                 <div class="first-summary">
+           <h5>Order Summary</h5>
+                 </div>
+                 <div class="second-summary">
+           <p>Mens Tech Shell Full-Zip</p>
+           <p>$50.20</p>
+                 </div>
+                 <div class="second-summary">
+                   <p>Total</p>
+                   <p>$50.20</p>
+                 </div>
+                 <div class="place-order">
+                  <button class="btn" href="">PLACE ORDER</button>
+                 </div>
+                </div>
+                
+                 </div>
+               
  
  
-            </form>
+                </div>
+                <footer class="footer checkout-footer-desktop">
+                  <p class="footer-tag">Made by Polymer</p>
+                  <button class="demo-btn">DEMO ONLY</button>
+              </footer>
             
+             <a href="./checkout.html"> <footer class="checkout-footer desktop-off">
+              <p>Place-Order</p> 
+            </footer>
+        </a>
     </main>
 </body>
 </html>

@@ -19,54 +19,58 @@
     <main class="cart box">
         <div class="header">
             <div class="icon-hide">
-                <i class="fa fa-bars large-icon fa-light  hamburger desktop-hide"></i>
+                <i class="fa fa-bars large-icon fa-light  hamburger "></i>
             </div>
         
           <p class="shop-heading">SHOP</p>
           <a href="./cart.html"> <img src="./Images/grocery-store.png" alt="" class="grocery-icon"></a>
          
         </div>
-        <!-- <div class="desktop">
-            <a class="navbar" href="">Mens-Outwear</a>
-            <a href="" class="navbar">Women-Outwear</a>
-            <a href="" class="navbar">Men T-shirt</a>
-            <a href="" class="navbar">Ladies  T-shirt</a>
-        </div> -->
             <p class="mens-heading cart-heading">Your Cart</p>
          <p class="mens-heading items cart-item-text">(1 item)</p>
 
         <div class="master-block">
-            <img src="./Images/Mens/first.jpg" alt="">
-            <div class="product-txt">
-                <div class="a-block">
+            <div class="image-cart">
+                <img src="./Images/Mens/first.jpg" alt="">
+            </div>
+                  <div class="a-block">
                     <p class="cloth-txt">Mens Tech Shell Full-Zip</p>
-                    <i class="fa-solid fa-xmark fa-x" ></i>
-                </div>
+                    <div class="unit">
+                        <label for="" class="quantity-txt">Qty:</label>
+                        <select class="qty-option">
+                            <option value="1" class="option-value">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                        </select>
+                        
+                        <label for="size" class=" unit-size"> Size:</label>
+                        <span class="size-symbol">M</span>
+                        <label class="unit-price">$22.22</label>
+                    </div>
+                    <div class="cross">
+                        <i class="fas fa-times" ></i>
+                    </div>
+                
+               
               
-                <div class="all-item">
-                    <label for="" class="qty-tag">Qty:</label>
-                    <select class="cart-option">
-                        <option value="1" class="option-value">1</option>
-                        <option value="2">2</option>
-                        <option value="3">3</option>
-                        <option value="4">4</option>
-                    </select>
-                    <label for="size" class="size "> Size :<span class="size-symbol">M</span></label>
-                    <label class=" cart-option-price">$22.22</label>
-    
-                </div>
+            </div>
+
+           
             </div>
             
           
         </div>
-        <div class="total">
+     
+        <div class="total ">
             <h2 class="total-money-1">Total:</h2>
             <p class="total-money">$50.20</p>
+            <a href="./checkout.html">   <button class="btn checkout-btn ">CHECKOUT</button></a>
         </div>
      
       
       
-        <a href="./checkout.html"> <footer class="cart-footer">
+        <a href="./checkout.html"> <footer class="cart-footer icon-hide">
           <p>Checkout</p> 
         </footer>
     </a>

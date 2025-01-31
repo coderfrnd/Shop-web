@@ -15,7 +15,7 @@ body {
 }
 
 /* 3. Remove list styles */
-ol, {
+ol {
     list-style: none;
 }
 
@@ -43,7 +43,7 @@ img {
 }
 
 /* 8. Remove form input styles */
-input,
+input,tetextxt
 button,
 select,
 textarea {
@@ -65,6 +65,6 @@ textarea {
 }
 
 
-input:focus, textarea:focus, select:focus, button:focus {
+/* input:focus, textarea:focus, select:focus, button:focus {
     box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.25);
-}
+} */
