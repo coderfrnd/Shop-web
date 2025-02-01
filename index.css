@@ -58,6 +58,7 @@ padding: 0.7rem 2.7rem;
 margin-bottom: 2.5rem;
 color: rgb(19, 18, 18);
 font-size: 14px;
+background-color: white;
 }
 .t-shirt{
     display: flex;
@@ -536,6 +537,11 @@ font-size: 14px;
     text-align: center;
     padding: 6%;
 }
+.cvv-text-input{
+    justify-content: end;
+    padding: 0%;
+    color: #757575;
+ }
 .desktop-off{
     display: block;
 }
@@ -853,4 +859,5 @@ margin-left: 3%;
  .not-for-mobile{
     display: block;
  }
+ 
 }
