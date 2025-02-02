@@ -35,3 +35,9 @@
   textarea {
     white-space: revert;
   }
+  select {
+    all: revert;
+    border: none; 
+  
+}
+
